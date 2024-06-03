@@ -5,7 +5,7 @@ public class Condition : MonoBehaviour
 {
     public float curValue; //현재값
     public float startValue; //초기값
-    public float maxValue; //최대값
+    public float maxValue; //최댓값
     public float passiveValue;//시간에 따라 줄어들고 회복하고 주기적인 값도 있을 것임 체젠,마젠 같은거임
     public Image uiBar; //게이지 바 이미지를 인스팩터서 넣어주면 해당 오브젝트의 Imgae 컴포넌트가 들어간다. Fill Amount 값이 0이면 빈 게이지고, 1이면 꽉찬 게이지가 된다.
 
